@@ -1,0 +1,13 @@
+.header{
+    height: 100px;
+    /* margin: 100px 0px 50px 50px; */
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: #65BCCA;
+}
+.icon{
+    color: rgb(149, 213, 218);
+    margin-bottom: 0px;
+    font-size: 40px;
+}
