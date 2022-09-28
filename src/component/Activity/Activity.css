@@ -1,0 +1,19 @@
+.activity-container{
+    height: 500px;
+    border: 2px solid rgb(215, 232, 238);
+    border-radius: 8px;
+    box-shadow: 10px 10px 100px rgb(223, 232, 235);
+
+}
+.activity-container img{
+    width: 96%;
+    height: 150px;
+    padding: 2%;
+    border-radius: 12px 12px 0px 0px;
+}
+.activity-item{
+    padding: 0px 20px;
+}
+.card-title{
+    margin-top: 0px;
+}

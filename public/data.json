@@ -1,51 +1,58 @@
 [
-    {
-      "id": "633473371cc3b5c25abd3ab8",
-      "time": 5,
-      "picture": "http://placehold.it/32x32",
-      "age": 38,
-      "name": "Olsen Hardy"
-    },
-    {
-      "id": "6334733780c2d901b15ad08e",
-      "time": 1,
-      "picture": "http://placehold.it/32x32",
-      "age": 29,
-      "name": "Campbell Mack"
-    },
-    {
-      "id": "6334733760992ef2a043595b",
-      "time": 1,
-      "picture": "http://placehold.it/32x32",
-      "age": 40,
-      "name": "Kristen Newman"
-    },
-    {
-      "id": "633473372aef31be45e67069",
-      "time": 1,
-      "picture": "http://placehold.it/32x32",
-      "age": 28,
-      "name": "Spence Floyd"
-    },
-    {
-      "id": "633473375e4e8d9f062bc331",
-      "time": 1,
-      "picture": "http://placehold.it/32x32",
-      "age": 36,
-      "name": "Pat Booth"
-    },
-    {
-      "id": "63347337b78f5ac28f1284cd",
-      "time": 5,
-      "picture": "http://placehold.it/32x32",
-      "age": 22,
-      "name": "Leann Cervantes"
-    },
-    {
-      "id": "63347337a3f022c25cef8d53",
-      "time": 1,
-      "picture": "http://placehold.it/32x32",
-      "age": 20,
-      "name": "Beth Perry"
-    }
-  ]
+  {
+    "id": "633473371cc3b5c25abd3ab8",
+    "time": 1,
+    "picture": "https://media.istockphoto.com/photos/woman-wearing-sport-shoes-picture-id1040307846?s=612x612",
+    "data": "Regular physical activity can improve your muscle strength and boost your endurance. Exercise delivers oxygen and nutrients to your tissues and helps your cardiovascular system work more efficiently. And when your heart and lung health improve, you have more energy to tackle daily chores.",
+    "name": "Exercise",
+    "age": "20-50"
+  },
+  {
+    "id": "6334733780c2d901b15ad08e",
+    "time": 6,
+    "picture": "https://media.istockphoto.com/photos/young-woman-sleeping-in-bed-at-night-picture-id1289222246?s=612x612",
+    "data": "Sleep is essential to every process in the body, affecting our physical and mental functioning the next day, our ability to fight disease and develop immunity, and our metabolism and chronic disease risk. Sleep is truly interdisciplinary because it touches every aspect of health.",
+    "name": "Sleep",
+    "age": "2-70"
+  },
+  {
+    "id": "6334733760992ef2a043595b",
+    "time": 2,
+    "picture": "https://static.vecteezy.com/system/resources/thumbnails/006/948/097/small/pov-of-caucasian-mother-and-daughter-greeting-to-audience-showing-cooking-homemade-salad-streaming-online-in-the-kitchen-girl-enjoy-family-activity-free-photo.jpg",
+    "data": "The benefits of cooking at home ... cook, you can learn to prepare quick and healthy meals that can have real benefits for your mental and physical health.",
+    "name": "Cooking",
+    "age": "20-50"
+  },
+  {
+    "id": "633473372aef31be45e67069",
+    "time": 1,
+    "picture": "https://thumbs.dreamstime.com/b/attractive-happy-senior-person-year-old-woman-who-loves-pool-activities-smiles-playing-water-cap-goggles-214220808.jpg",
+    "data": "Swimming is a great activity to relax your body and mind and help you to sleep. Why is swimming a good way to help me sleep? Swimming burns around 350 to 420 calories an hour, depending on how hard you are working. Compare this to walking, which burns around 177 to 279 calories an hour and you can see then benefits!",
+    "name": "Swiming",
+    "age": "9-40"
+  },
+  {
+    "id": "633473375e4e8d9f062bc331",
+    "time": 1,
+    "picture": "https://thumbs.dreamstime.com/b/senior-woman-taking-care-flowers-garden-gardener-cutting-lilies-off-scissors-summer-activities-lifestyle-171039368.jpg",
+    "data": "In addition to providing nutritious veggies and fruits for your dinner table and beautiful flowers to decorate it, gardening offers a variety of health benefits.",
+    "name": "Garden Care",
+    "age": "20-80"
+  },
+  {
+    "id": "63347337b78f5ac28f1284cd",
+    "time": 6,
+    "picture": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y29kaW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    "data": " 1. Coding and programming careers have great earning potential · 2. Demand remains strong for coding-related jobs · 3. Coding ability gives new .",
+    "name": "Coding",
+    "age": "6-70"
+  },
+  {
+    "id": "63347337a3f022c25cef8d53",
+    "time": 2,
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOA-eu7_rvCC4LTm_r0NdVps1Q74_6PSPb5w&usqp=CAU",
+    "data": "The daily obligatory prayers collectively form the second of the five pillars in Islam, observed five times every day at prescribed times. These are Fajr",
+    "name": "Salah Prayer",
+    "age": "5-100+"
+  }
+]
