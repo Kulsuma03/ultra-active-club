@@ -5,3 +5,6 @@
     border-radius: 50%;
     
 }
+.break-time:focus{
+    background-color: #65BCCA;
+}

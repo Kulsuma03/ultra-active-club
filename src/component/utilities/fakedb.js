@@ -12,14 +12,14 @@ const addToDb = id =>{
 }
 
 const getStoredCart = () => {
-    let shoppingCart = {};
+    let getStoredCartItem = {};
 
     //get the shopping cart from local storage
     const storedCart = localStorage.getItem('break-time');
     if(storedCart){
-        shoppingCart = JSON.parse(storedCart);
+        getStoredCartItem = JSON.parse(storedCart);
     }
-    return shoppingCart;
+    return getStoredCartItem;
 }
 
 export {addToDb, getStoredCart}

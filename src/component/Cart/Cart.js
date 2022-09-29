@@ -25,7 +25,7 @@ const Cart = ({cart}) => {
         const data = getStoredCart();
         const id = data.id
         setBreakTimeDetail(id)
-        console.log(data)
+        // console.log(data)
         
     },[breakTime])
 
