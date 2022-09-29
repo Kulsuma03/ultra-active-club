@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHouseLaptop } from '@fortawesome/free-solid-svg-icons'
 import Activity from '../Activity/Activity';
 import Cart from '../Cart/Cart';
 
@@ -29,7 +30,10 @@ const Activities = () => {
     return (
         <div className='main-container'>
             <div>
-            
+                <div className='header'>
+                <FontAwesomeIcon className='icon' icon={faHouseLaptop} />
+                <h1 className='heading'>Calculate The Activity</h1>
+                </div>
             <h2>Select today’s work </h2>
             <div className='activities-container'>
                 {

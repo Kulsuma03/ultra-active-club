@@ -4,11 +4,22 @@ import { faLocationPin } from '@fortawesome/free-solid-svg-icons'
 import './Cart.css'
 import Break from '../Break/Break';
 import { addToDb, getStoredCart } from '../utilities/fakedb';
+import Swal from 'sweetalert2'
+
 
 const Cart = ({cart}) => {
     // console.log(cart)
     const [breakTimeDetail, setBreakTimeDetail] = useState([]);
-    const breakTime = ['10s', '20s', '30s', '40s', '50s']
+    const breakTime = ['10s', '20s', '30s', '40s', '50s'];
+
+  
+    const addToAlert = () =>{
+        Swal.fire(
+            'Congratulations',
+            'You are done',
+            'success'
+          )
+    }
 
     useEffect( () => {
         const data = getStoredCart();
@@ -76,7 +87,7 @@ const Cart = ({cart}) => {
                 </div>
             </div>
             <div>
-                <button className='btn-completed'>Activity Completed</button>
+                <button onClick={addToAlert} className='btn-completed'>Activity Completed</button>
             </div>
         </div>
     );

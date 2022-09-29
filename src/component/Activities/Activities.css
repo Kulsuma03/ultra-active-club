@@ -19,3 +19,17 @@
     box-shadow: 10px 10px 50px whitesmoke;
     
 }
+.header{
+    height: 100px;
+    margin: 70px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: #65BCCA;
+    
+}
+.icon{
+    color: rgb(149, 213, 218);
+    margin-bottom: 0px;
+    font-size: 40px;
+}
