@@ -35,6 +35,9 @@
 
 @media only screen and (max-width:500px) {
     /* For mobile phones: */
+    .activity-container{
+        height: 380px;
+    }
     .card-detail-p{
         display: none;
     }
