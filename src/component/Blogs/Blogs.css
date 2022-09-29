@@ -1,0 +1,9 @@
+.blog-container{
+    width: 80%;
+    margin: 100px auto;
+    
+}
+.blog-heading{
+    text-align: center;
+    color: #65BCCA;
+}

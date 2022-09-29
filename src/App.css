@@ -1,4 +1,6 @@
-
+.App{
+  background-color: #e9f0f1;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

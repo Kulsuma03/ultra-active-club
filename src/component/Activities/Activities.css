@@ -20,8 +20,8 @@
     
 }
 .header{
-    height: 100px;
-    margin: 70px 0px 0px 0px;
+    height: 80px;
+    margin: 50px 0px 0px 0px;
     display: flex;
     align-items: center;
     justify-content: start;
@@ -33,3 +33,28 @@
     margin-bottom: 0px;
     font-size: 40px;
 }
+
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    .main-container{
+        margin-left: 20px;
+    }
+    .activities-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .main-container{
+        margin-left: 20px;
+    }
+    .activities-container{
+        grid-template-columns: 1fr;
+    }
+    .header{
+        text-align: center;
+        display: block;
+        margin-bottom: 60px;
+        margin-top: 50px;
+    }
+  }
