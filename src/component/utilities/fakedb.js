@@ -1,5 +1,5 @@
 const addToDb = id =>{
-    console.log(id)
+    // console.log(id)
     let cart = {id};
 
     //get the shopping cart from local storage

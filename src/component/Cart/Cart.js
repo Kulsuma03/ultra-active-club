@@ -27,7 +27,7 @@ const Cart = ({cart}) => {
         setBreakTimeDetail(id)
         // console.log(data)
         
-    },[breakTime])
+    },[])
 
     let time = 0
     for(const work of cart){
