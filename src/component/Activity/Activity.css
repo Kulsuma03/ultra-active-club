@@ -32,3 +32,10 @@
 .btn-add:hover{
     background-color: #65BCCA;
 }
+
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .card-detail-p{
+        display: none;
+    }
+  }

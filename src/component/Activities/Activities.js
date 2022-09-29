@@ -34,7 +34,7 @@ const Activities = () => {
                 <FontAwesomeIcon className='icon' icon={faHouseLaptop} />
                 <h1 className='heading'>Calculate The Activity</h1>
                 </div>
-            <h2>Select today’s work </h2>
+            <h2 className='tody-wrk'>Select today’s work </h2>
             <div className='activities-container'>
                 {
                     activities.map(activity => <Activity

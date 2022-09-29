@@ -9,7 +9,7 @@ const Activity = ({activity, addToCart}) => {
            <img src={picture} alt="" />
            <div className="activity-item">
                 <h4 className='card-title'> {name} </h4> 
-                <p>{data? data.slice(0, 200) + '...' : data}</p>
+                <p className='card-detail-p'>{data? data.slice(0, 150) + '...' : data}</p>
                 <p>For Age : {age}</p>
                 <p>Time required : {time}<small> hour</small></p>
            </div>
