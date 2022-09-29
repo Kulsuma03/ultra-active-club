@@ -47,10 +47,13 @@
   @media only screen and (max-width:500px) {
     /* For mobile phones: */
     .main-container{
-        margin-left: 20px;
+        /* margin-left: 20px; */
+        display: block;
+        
     }
     .activities-container{
         grid-template-columns: 1fr;
+        
     }
     .header{
         text-align: center;
@@ -59,8 +62,11 @@
         margin-top: 50px;
     }
     .tody-wrk{
-        margin: 120px 0px 10px;
+        /* margin: 120px 0px 10px; */
         text-align: center;
         font-size: 20px;
+    }
+    .main-cart{
+        height: 600px;
     }
   }

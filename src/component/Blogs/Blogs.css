@@ -16,3 +16,10 @@
 span{
     color: #65BCCA;
 }
+
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+   .main-blog{
+    margin-top: 50px;
+   }
+  }
