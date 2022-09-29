@@ -1,9 +1,17 @@
-.blog-container{
+.main-blog{
     width: 80%;
     margin: 100px auto;
+    background-color: #dce3e4;
+    border-radius: 20px;
     
+}
+.blog-container{
+    padding: 50px;
 }
 .blog-heading{
     text-align: center;
+    color: #65BCCA;
+}
+span{
     color: #65BCCA;
 }
