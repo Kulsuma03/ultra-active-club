@@ -3,6 +3,7 @@
     border: 2px solid rgb(215, 232, 238);
     border-radius: 8px;
     box-shadow: 10px 10px 100px rgb(223, 232, 235);
+    position: relative;
 
 }
 .activity-container img{
@@ -16,4 +17,18 @@
 }
 .card-title{
     margin-top: 0px;
+}
+.btn-add{
+    width: 100%;
+    padding: 15px;
+    position: absolute;
+    bottom: 0;
+    border-radius: 0px 0px 8px 8px;
+    border: none;
+    background-color: #003862;
+    color: white;
+
+}
+.btn-add:hover{
+    background-color: #65BCCA;
 }

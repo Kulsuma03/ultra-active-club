@@ -2,10 +2,20 @@
     display: grid;
     grid-template-columns: 3fr 1fr;
     margin-left: 100px;
+    grid-gap: 15px;
+    
 }
 .activities-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 15px;
+    
+}
+.main-cart{
+    background-color: aliceblue;
+    height: 100vh;
+    position: sticky;
+    top: 0px;
+    box-shadow: 10px 10px 50px whitesmoke;
     
 }

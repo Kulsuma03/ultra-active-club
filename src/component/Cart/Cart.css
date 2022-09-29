@@ -1,0 +1,90 @@
+.info-container{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.info-container img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+.location{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+.icon-location{
+    margin-top: 5px;
+    margin-right: 8px;
+    color: #65BCCA;
+
+}
+.location p{
+    margin-top: 0px;
+}
+.name{
+    margin-bottom: 0px;
+}
+
+/* my info  */
+
+.my-info{
+    width: 80%;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+    background-color: #dce3e4;
+    border-radius: 10px;
+}
+.my-info h4{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 22px;
+}
+.my-info p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/* break time  */
+.time-btn{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 20px;
+    background-color: #dce3e4;
+    width: 80%;
+    margin:20px auto;
+    border-radius: 10px;
+    
+}
+.add-brk{
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+
+/* working details  */
+
+.work-detail{
+    width: 80%;
+    margin:20px auto;
+    display: flex;
+    align-items: center;
+    padding: 1px 20px;
+    justify-content: space-between;
+    background-color: #dce3e4;
+    border-radius: 10px;
+}
+
+.btn-completed{
+    width: 93%;
+    padding: 15px 0px;
+    margin: 0px auto;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #65BCCA;
+}
